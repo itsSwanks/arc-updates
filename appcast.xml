@@ -3,6 +3,22 @@
     <channel>
         <title>Arc</title>
         <item>
+            <title>1.0.4</title>
+            <pubDate>Tue, 18 Aug 2026 16:49:18 +0400</pubDate>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <sparkle:releaseNotesLink>https://raw.githubusercontent.com/itsSwanks/arc-updates/main/Arc-1.0.4.html</sparkle:releaseNotesLink>
+            <enclosure url="https://github.com/itsSwanks/arc-updates/releases/download/updates/Arc-1.0.4.dmg" length="7851869" type="application/octet-stream" sparkle:edSignature="nUvrmuYTT5CfjJJaNmXqUKBFbUxN+PybDCTDtIAoIE7GCrfpezplmtPTkkqi+k7U+gLntMMGLY+bj7L6VI7aBQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/itsSwanks/arc-updates/releases/download/updates/Arc15-14.delta" sparkle:deltaFrom="14" length="20146" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nF5y8xt8ijWBxwJgVAy5o8eVNS9GKObgjWuW0Gn5BAURvYz0jd2MsHX1Shck+tTw49O+fqF+9KH4hPqbcBTrDQ=="/>
+                <enclosure url="https://github.com/itsSwanks/arc-updates/releases/download/updates/Arc15-13.delta" sparkle:deltaFrom="13" length="20398" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3H3BQ+LRv1DECfsVmjFNwR5j/mdOoQIaKxmDm2AcFBJoKAp0t6Dz+rKsORIAQGTGmt8DBjmUzvHpgPxydvvmAQ=="/>
+                <enclosure url="https://github.com/itsSwanks/arc-updates/releases/download/updates/Arc15-12.delta" sparkle:deltaFrom="12" length="128754" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dLk7yZRsQD8/6P/XVO6vTvAsLqhQji8WsTPcSEib9gbPElFQ1En3W7xs/z9qX2jHGaohKJonKejOS1orjT10Cw=="/>
+                <enclosure url="https://github.com/itsSwanks/arc-updates/releases/download/updates/Arc15-11.delta" sparkle:deltaFrom="11" length="134186" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0hYY7phQLIxJbhPbQ+FKu7vrNB8cNrAVSnBXrCgOtwTh9gZFW28naRJqe4FKGHD3xc7o283R8wyayEIdX/h+Ag=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.3</title>
             <pubDate>Tue, 18 Aug 2026 16:42:32 +0400</pubDate>
             <sparkle:version>14</sparkle:version>
@@ -29,19 +45,6 @@
             <sparkle:deltas>
                 <enclosure url="https://github.com/itsSwanks/arc-updates/releases/download/updates/Arc13-12.delta" sparkle:deltaFrom="12" length="123326" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="QxCJzlXACLk7GPJiS2yBjHlGOHFlMU252f/zNmQDT0r9CkvjSO9e6QFGUh//KerUy9wpYjhqqS3P0/wHugqVAQ=="/>
                 <enclosure url="https://github.com/itsSwanks/arc-updates/releases/download/updates/Arc13-11.delta" sparkle:deltaFrom="11" length="129242" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lpHrvT8cvUs/qcqrTvvj7DEuSUZCyFiJATyRi8h5B9zE5FbkainmyAkfbXOIpnB3Tlerr4Ulva03VrHQIB4CDg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0.1</title>
-            <pubDate>Tue, 18 Aug 2026 16:01:35 +0400</pubDate>
-            <sparkle:version>12</sparkle:version>
-            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <sparkle:releaseNotesLink>https://raw.githubusercontent.com/itsSwanks/arc-updates/main/Arc-1.0.1.html</sparkle:releaseNotesLink>
-            <enclosure url="https://github.com/itsSwanks/arc-updates/releases/download/updates/Arc-1.0.1.dmg" length="7839231" type="application/octet-stream" sparkle:edSignature="XF4+81svyRvVGhz74CKw4+GEra/8G2eUjYieAW8JFEfhns3gZkK9+HwbCYiuMM5c+9odN+K1S9wzHHnSAWpvBQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/itsSwanks/arc-updates/releases/download/updates/Arc12-11.delta" sparkle:deltaFrom="11" length="60802" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="a8et8IgWnRWQppU1Aiq4pSdT0jdkqFCPSAHENU/Azw0m/uy6E3s+AUdp5jtDi98eXteWBvjANpp8qw/jgzrlAg=="/>
             </sparkle:deltas>
         </item>
     </channel>

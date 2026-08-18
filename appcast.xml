@@ -3,6 +3,37 @@
     <channel>
         <title>Arc</title>
         <item>
+            <title>1.0.5</title>
+            <pubDate>Tue, 18 Aug 2026 17:56:41 +0400</pubDate>
+            <sparkle:version>16</sparkle:version>
+            <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+  .arc-notes { font: 13px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif; -webkit-font-smoothing: antialiased; padding: 2px 2px 6px; }
+  .arc-notes .eyebrow { font-size: 11px; letter-spacing: .07em; text-transform: uppercase; color: #17B890; font-weight: 700; margin: 0 0 3px; }
+  .arc-notes h2 { font-size: 17px; font-weight: 700; margin: 0 0 11px; }
+  .arc-notes p { margin: 0 0 8px; opacity: .82; }
+  .arc-notes ul { margin: 6px 0 0; padding: 0; list-style: none; }
+  .arc-notes li { margin: 8px 0; padding-left: 20px; position: relative; opacity: .9; }
+  .arc-notes li::before { content: ""; position: absolute; left: 3px; top: 8px; width: 6px; height: 6px; border-radius: 50%; background: #17B890; }
+</style>
+<div class="arc-notes">
+  <p class="eyebrow">What's new</p>
+  <h2>Arc 1.0.5</h2>
+  <ul><li>Choose your look: a new System, Dark, or Light appearance control in Settings.</li><li>A clearer gear icon for Settings.</li></ul>
+</div>
+]]></description>
+            <enclosure url="https://github.com/itsSwanks/arc-updates/releases/download/updates/Arc-1.0.5.dmg" length="7865515" type="application/octet-stream" sparkle:edSignature="Po0LcyvbY4GgndNNUjVK/JAKXrbvRf6AwmgJBbwpeHaRojA9u1S3JnXcP8o9IUU5FvRHrUpP58dqwjy51WVeCQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/itsSwanks/arc-updates/releases/download/updates/Arc16-15.delta" sparkle:deltaFrom="15" length="121786" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="wpXGIbEcg+nuH61cW0yRiARkk5L02RrSL5CGPplJmrDa1LUQ7mETwwrmm6DB1/65HgEI0poG26GivPXvZrwzCw=="/>
+                <enclosure url="https://github.com/itsSwanks/arc-updates/releases/download/updates/Arc16-14.delta" sparkle:deltaFrom="14" length="125986" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="aOaSzz32902pv8FqpApnjizzaARqOAKqBU06ok6IWW0ICYcU/Kvr4/2FjKvyXxRJXj9js2i//FFtpWRfcVgEBw=="/>
+                <enclosure url="https://github.com/itsSwanks/arc-updates/releases/download/updates/Arc16-13.delta" sparkle:deltaFrom="13" length="126062" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="OFUS4r7pISj+t4rOAtdV4ycLnpkh37yBBnQlDD01vQ5rZLXfpm/yo+75A/c8jaxKfcwzddFEeb6uXd+wpW6bAg=="/>
+                <enclosure url="https://github.com/itsSwanks/arc-updates/releases/download/updates/Arc16-12.delta" sparkle:deltaFrom="12" length="158338" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="uZ7PwTVNgDydSKh24D/r7cV3o825mcNUSmgJuaVvGO/dUu4ZmlX0cHbiksF1lvaJrLGRWR1/e1VqUhbeQUI0DQ=="/>
+                <enclosure url="https://github.com/itsSwanks/arc-updates/releases/download/updates/Arc16-11.delta" sparkle:deltaFrom="11" length="160446" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="7qtu5y366DJsXys3mRb79/iwbaP6PX6N+RvVb9UaoYr3UPJ+7KvGFpsqW7xZr6hh9eJJZffY7kxAyQ+mUd4zBg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.4</title>
             <pubDate>Tue, 18 Aug 2026 16:49:18 +0400</pubDate>
             <sparkle:version>15</sparkle:version>
@@ -58,34 +89,6 @@
   <p class="eyebrow">What's new</p>
   <h2>Arc 1.0.3</h2>
   <p>Reliability and maintenance improvements.</p>
-</div>
-]]></description>
-        </item>
-        <item>
-            <title>1.0.2</title>
-            <pubDate>Tue, 18 Aug 2026 16:36:29 +0400</pubDate>
-            <sparkle:version>13</sparkle:version>
-            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/itsSwanks/arc-updates/releases/download/updates/Arc-1.0.2.dmg" length="7851793" type="application/octet-stream" sparkle:edSignature="tibjxBWw4zAKa1me+FPFivY+QUZvWpBpoAlSPdoYrX6liq19K0s/PPGYzganXG5/eVMZv9bH5A1VEx1tmT5JCQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/itsSwanks/arc-updates/releases/download/updates/Arc13-12.delta" sparkle:deltaFrom="12" length="123326" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="QxCJzlXACLk7GPJiS2yBjHlGOHFlMU252f/zNmQDT0r9CkvjSO9e6QFGUh//KerUy9wpYjhqqS3P0/wHugqVAQ=="/>
-                <enclosure url="https://github.com/itsSwanks/arc-updates/releases/download/updates/Arc13-11.delta" sparkle:deltaFrom="11" length="129242" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lpHrvT8cvUs/qcqrTvvj7DEuSUZCyFiJATyRi8h5B9zE5FbkainmyAkfbXOIpnB3Tlerr4Ulva03VrHQIB4CDg=="/>
-            </sparkle:deltas>
-            <description><![CDATA[<style>
-  .arc-notes { font: 13px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif; -webkit-font-smoothing: antialiased; padding: 2px 2px 6px; }
-  .arc-notes .eyebrow { font-size: 11px; letter-spacing: .07em; text-transform: uppercase; color: #17B890; font-weight: 700; margin: 0 0 3px; }
-  .arc-notes h2 { font-size: 17px; font-weight: 700; margin: 0 0 11px; }
-  .arc-notes p { margin: 0 0 8px; opacity: .82; }
-  .arc-notes ul { margin: 6px 0 0; padding: 0; list-style: none; }
-  .arc-notes li { margin: 8px 0; padding-left: 20px; position: relative; opacity: .9; }
-  .arc-notes li::before { content: ""; position: absolute; left: 3px; top: 8px; width: 6px; height: 6px; border-radius: 50%; background: #17B890; }
-</style>
-<div class="arc-notes">
-  <p class="eyebrow">What's new</p>
-  <h2>Arc 1.0.2</h2>
-  <ul><li>New: a software-update banner on the home page tells you when a new version is available.</li><li>Smoother app relaunch when you route an app.</li></ul>
 </div>
 ]]></description>
         </item>

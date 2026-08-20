@@ -3,6 +3,37 @@
     <channel>
         <title>Arc</title>
         <item>
+            <title>1.0.6</title>
+            <pubDate>Thu, 20 Aug 2026 15:06:35 +0400</pubDate>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description><![CDATA[<style>
+  .arc-notes { font: 13px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif; -webkit-font-smoothing: antialiased; padding: 2px 2px 6px; }
+  .arc-notes .eyebrow { font-size: 11px; letter-spacing: .07em; text-transform: uppercase; color: #17B890; font-weight: 700; margin: 0 0 3px; }
+  .arc-notes h2 { font-size: 17px; font-weight: 700; margin: 0 0 11px; }
+  .arc-notes p { margin: 0 0 8px; opacity: .82; }
+  .arc-notes ul { margin: 6px 0 0; padding: 0; list-style: none; }
+  .arc-notes li { margin: 8px 0; padding-left: 20px; position: relative; opacity: .9; }
+  .arc-notes li::before { content: ""; position: absolute; left: 3px; top: 8px; width: 6px; height: 6px; border-radius: 50%; background: #17B890; }
+</style>
+<div class="arc-notes">
+  <p class="eyebrow">What's new</p>
+  <h2>Arc 1.0.6</h2>
+  <ul><li>The app list now shows Apple apps too, including Safari, Mail, Music and Messages.</li><li>Safari now really routes through the tunnel (it uses macOS's shared web engine, so other web-based apps may route too).</li></ul>
+</div>
+]]></description>
+            <enclosure url="https://github.com/itsSwanks/arc-updates/releases/download/updates/Arc-1.0.6.dmg" length="7868740" type="application/octet-stream" sparkle:edSignature="MmPBZkjA9C0nobA9NXD+BYnbh/5wuli8I9QDTnUSwQSlJY4GKkOMHkVIwaqv1A3QTiuGZ4lf0IPi16gzqeorBw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/itsSwanks/arc-updates/releases/download/updates/Arc17-16.delta" sparkle:deltaFrom="16" length="100178" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1RUOaQfC3tve+shn5c5THZziPm/YrJg77r6F1o60R4x46LDQDXhq7mujesT7Ymwnekzdi2vuePyZ9L948JPpCg=="/>
+                <enclosure url="https://github.com/itsSwanks/arc-updates/releases/download/updates/Arc17-15.delta" sparkle:deltaFrom="15" length="144066" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="NBrrzVf7AX7U59ptlnHzOki4WJWIsRH549j9aPbZbVhMpMPtOSm/c+Uu0Zu+jcsll3qjaOtIy8v4iXtgE0iTCA=="/>
+                <enclosure url="https://github.com/itsSwanks/arc-updates/releases/download/updates/Arc17-14.delta" sparkle:deltaFrom="14" length="145178" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="78FOuN88kYC35HaazH9mPbyptC9EiDh+haNVl0buIIxifAqbK/tI+s4vdDNHZzSx9wxr5naDKw4N/9foSSg4AQ=="/>
+                <enclosure url="https://github.com/itsSwanks/arc-updates/releases/download/updates/Arc17-13.delta" sparkle:deltaFrom="13" length="145046" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="l6sfVEr969rBh5fS8ed9pMiQzUnyrasFxwerlTCa59RnmyCM+8GJA1i4wt0EGjZhqL0yYxVZRPzSIAKuA2aABw=="/>
+                <enclosure url="https://github.com/itsSwanks/arc-updates/releases/download/updates/Arc17-12.delta" sparkle:deltaFrom="12" length="170274" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="jbVkTZvl0JP2+vqzotQ+LK3l5SnBlOcdwSkFcJxJmfatqCa879n01rKoSJMdk1bOKnqBD0mDx6aGS/Y8/sXYDA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0.5</title>
             <pubDate>Tue, 18 Aug 2026 17:56:41 +0400</pubDate>
             <sparkle:version>16</sparkle:version>
@@ -60,35 +91,6 @@
   <p class="eyebrow">What's new</p>
   <h2>Arc 1.0.4</h2>
   <ul><li>Closing Arc now stops the tunnel right away.</li><li>Reopening Arc restores routing for your protected apps.</li></ul>
-</div>
-]]></description>
-        </item>
-        <item>
-            <title>1.0.3</title>
-            <pubDate>Tue, 18 Aug 2026 16:42:32 +0400</pubDate>
-            <sparkle:version>14</sparkle:version>
-            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/itsSwanks/arc-updates/releases/download/updates/Arc-1.0.3.dmg" length="7851764" type="application/octet-stream" sparkle:edSignature="l8VVRuacnptFUSJqaTP3eziNNazCvX8ToNnyT6VTKNnnZandTkoHVJrwYPAqgMZW1jYyERKd0NZQu2/wrqpXDQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/itsSwanks/arc-updates/releases/download/updates/Arc14-13.delta" sparkle:deltaFrom="13" length="15778" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="PlnUeegseKKfV8cZ7arbr5tRPeQ5nmmbzcJQFLv9rnfz2CZKaJYb3v4HXiil9LqYvWzFC3b9PXOyvmGMKg3bDw=="/>
-                <enclosure url="https://github.com/itsSwanks/arc-updates/releases/download/updates/Arc14-12.delta" sparkle:deltaFrom="12" length="124402" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="HLOrWrI3uz9rg/rtrmaVbQr5vwrzPr+5mywoUtNpKo/S4UvHkJUwet9hs7/DvRei2wWQNnrGzKLdFaGkoBkwAw=="/>
-                <enclosure url="https://github.com/itsSwanks/arc-updates/releases/download/updates/Arc14-11.delta" sparkle:deltaFrom="11" length="130374" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="AT01T6Iu9Vcc7HVHIHCd3zDbn3lHKOPqkL1SKU6VA/Lo1uJ8J62X3seQO14R9pZ08q3IzKRp3NvmU4P/jNotCg=="/>
-            </sparkle:deltas>
-            <description><![CDATA[<style>
-  .arc-notes { font: 13px/1.55 -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif; -webkit-font-smoothing: antialiased; padding: 2px 2px 6px; }
-  .arc-notes .eyebrow { font-size: 11px; letter-spacing: .07em; text-transform: uppercase; color: #17B890; font-weight: 700; margin: 0 0 3px; }
-  .arc-notes h2 { font-size: 17px; font-weight: 700; margin: 0 0 11px; }
-  .arc-notes p { margin: 0 0 8px; opacity: .82; }
-  .arc-notes ul { margin: 6px 0 0; padding: 0; list-style: none; }
-  .arc-notes li { margin: 8px 0; padding-left: 20px; position: relative; opacity: .9; }
-  .arc-notes li::before { content: ""; position: absolute; left: 3px; top: 8px; width: 6px; height: 6px; border-radius: 50%; background: #17B890; }
-</style>
-<div class="arc-notes">
-  <p class="eyebrow">What's new</p>
-  <h2>Arc 1.0.3</h2>
-  <p>Reliability and maintenance improvements.</p>
 </div>
 ]]></description>
         </item>
